@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "banned-words"
+version = "0.1.0"
+description = "party game about predicting words other person could say"
+authors = ["Michael Ulianich <ulianich_mihail@ukr.net>"]
+license = "GNU Affero General Public License v3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.2"
+uvicorn = {extras = ["standard"], version = "^0.27.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

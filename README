@@ -1,0 +1,7 @@
+Install dependencies:
+
+	poetry install
+
+Run:
+
+	poetry run uvicorn main:app --reload
